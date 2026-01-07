@@ -48,3 +48,20 @@ struct ImageGridView: View {
 #Preview {
     ImageGridView()
 }
+
+
+
+/*
+ 
+ AsyncImage(url: URL(string: url)) { image in
+     image
+         .resizable()
+         .scaledToFill()
+ } placeholder: {
+     Color.gray.opacity(0.3)
+ }
+ .aspectRatio(1, contentMode: .fill)
+ .clipped()
+
+ 
+ */
